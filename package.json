@@ -7,7 +7,7 @@
   "bin": {
     "p-hom": "./index.js"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "devDependencies": {
     "@stylistic/eslint-plugin-js": "^3.1.0",
