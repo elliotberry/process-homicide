@@ -42,7 +42,6 @@
     "embeddedLanguageFormatting": "auto"
   },
   "dependencies": {
-    "@release-it/bumper": "^7.0.1",
     "fast-fuzzy": "^1.12.0"
   }
 }
