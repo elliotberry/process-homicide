@@ -1,0 +1,48 @@
+{
+  "name": "process-homicide",
+  "description": "kill-all with some amateurish, yet effective, fuzzy matching and confirmation.",
+  "author": "ɛʟʟɨօȶ b  =^._.^= ∫ <elliot@email.gd>",
+  "license": "The Unlicense",
+  "main": "./index.js",
+  "bin": {
+    "p-hom": "./index.js"
+  },
+  "version": "0.0.1",
+  "type": "module",
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^3.1.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-perfectionist": "^4.9.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unicorn": "^57.0.0",
+    "prettier": "^3.5.1",
+    "release-it": "^18.1.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "semi": false,
+    "experimentalTernaries": true,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "quoteProps": "as-needed",
+    "trailingComma": "none",
+    "singleAttributePerLine": false,
+    "htmlWhitespaceSensitivity": "css",
+    "vueIndentScriptAndStyle": false,
+    "proseWrap": "preserve",
+    "insertPragma": false,
+    "printWidth": 80,
+    "requirePragma": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "embeddedLanguageFormatting": "auto"
+  },
+  "dependencies": {
+    "@release-it/bumper": "^7.0.1",
+    "fast-fuzzy": "^1.12.0"
+  }
+}
